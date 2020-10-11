@@ -1,0 +1,8 @@
+﻿Get number of items on the grocery list, item_price
+Get the price of the item, item_price
+Get the quantity of items, item_quan
+Calculate item_quan x item_price ,subtotal
+Output “the subtotal is”, subtotal
+calculate the tax = 0.07 x subtotal, tax
+calculate the total = subtotal + tax, total
+Output “the grand total is”, total
