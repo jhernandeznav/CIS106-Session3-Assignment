@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="cupca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-11 07:17:21 PM"/>
+        <attribute name="created" value="Y3VwY2E7REVTS1RPUC01QzA1TE05OzIwMjAtMTAtMTE7MDY6NTE6MDAgUE07MjgwMQ=="/>
+        <attribute name="edited" value="Y3VwY2E7REVTS1RPUC01QzA1TE05OzIwMjAtMTAtMTE7MDc6MDk6MzQgUE07MjtjdXBjYTtERVNLVE9QLTVDMDVMTTk7MjAyMC0xMC0wMzswMjoxNzozNiBQTTthc3NpZ25tZW50MmFjdGl2aXR5Mi5mcHJnOzgzODM="/>
+        <attribute name="edited" value="Y3VwY2E7REVTS1RPUC01QzA1TE05OzIwMjAtMTAtMTE7MDc6MTc6MjEgUE07MTsyOTE1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="length" type="Real" array="False" size=""/>
+            <declare name="width" type="Real" array="False" size=""/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <declare name="perimeter" type="Real" array="False" size=""/>
+            <assign variable="area" expression="calculatethearea()"/>
+            <assign variable="perimeter" expression="calculatetheperimeter()"/>
+            <output expression="&quot;Enter the length of the rectangle:&quot;" newline="True"/>
+            <input variable="length"/>
+            <output expression="&quot;Enter the width of the rectangle:&quot;" newline="True"/>
+            <input variable="width"/>
+        </body>
+    </function>
+    <function name="calculatethearea" type="Real" variable="length * width">
+        <parameters/>
+        <body>
+            <declare name="length" type="Real" array="False" size=""/>
+            <declare name="width" type="Real" array="False" size=""/>
+            <declare name="calculatearea" type="Integer" array="False" size=""/>
+            <assign variable="calculatearea" expression="length * width"/>
+            <output expression="&quot;Area =&quot; &amp;calculatearea" newline="True"/>
+        </body>
+    </function>
+    <function name="calculatetheperimeter" type="Real" variable="">
+        <parameters/>
+        <body>
+            <declare name="length" type="Real" array="False" size=""/>
+            <declare name="width" type="Real" array="False" size=""/>
+            <declare name="calculateperimeter" type="Real" array="False" size=""/>
+            <assign variable="calculateperimeter" expression="2*(length + width)"/>
+        </body>
+    </function>
+</flowgorithm>
